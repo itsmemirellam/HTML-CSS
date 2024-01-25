@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    <style>
+        body {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte/Pré-formatado</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p> <!-- Ao selecionar uma letra, vemos que ela não é monoespaçada. Ela não reserva o mesmo espaço lateral para cada letra-->
+    <!-- A tag code é para isso-->
+    <!--código phyton-->
+    <pre> 
+        <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'0 número {num} é PAR')
+        else:
+            print(f'0 número {num} é ÍMPAR')
+        print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+    <h2>Citações completas</h2>
+    <p>Segundo Maurício Samy Silva, no seu livro HTML5 2ª edição:</p>
+    <blockquote cite="https://www.google.pt/books/edition/HTML5_2%C2%AA_Edi%C3%A7%C3%A3o/f7JVBQAAQBAJ?hl=en&gbpv=1&dq=html5+livros&printsec=frontcover">
+        A web foi desenvolvida por alguém.
+    </blockquote> <!--Essa tag funciona para citar o que a pessoa está dizendo e também colocar o link referente ao produto, que consequentemente irá dar os direitos a quem disse-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypertext Markeup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. <abbr title="Uhuuul">Estou adorando</abbr>!</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>

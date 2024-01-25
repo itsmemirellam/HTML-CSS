@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(180deg, #416067, #A76A59);
+}
+
+header {
+    padding: 10px;
+    margin: 10px;
+    outline: 2px;
+    outline-style: double;
+    outline-color:  white;
+}
+
+#titulo {
+    font-family: 'Righteous', Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #416067;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 1px black;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    margin-right: 50px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+article {
+    padding: 5px;
+}
+
+article > aside {
+    background-color: #416067 ;
+}
+
+footer {
+    background-color: #A76A59;
+    color: aliceblue;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
