@@ -12,6 +12,7 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -29,6 +30,12 @@
         thead, tfoot {
             background-color: beige;
 
+        }
+
+        thead > tr > th { /* CABEÇALHO FIXO */
+            position: sticky;
+            top: 0;
+            background-color: beige;
         }
 
         tbody > tr:nth-child(odd) { /* 2n-1 */
